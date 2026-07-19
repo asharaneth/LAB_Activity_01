@@ -1,0 +1,48 @@
+2026-07-19T18:34:48.061Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-07-19T18:34:48.063Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "projectPath": "c:\\Users\\msi\\Documents\\MavenProjects\\MavenLAB\\hello-world",
+  "event": "precheckCompleted",
+  "phase": "precheck",
+  "status": "succeeded",
+  "details": {
+    "components": [
+      {
+        "name": "jdk",
+        "baseVersion": "7",
+        "targetVersion": "25"
+      }
+    ]
+  }
+}}).
+2026-07-19T18:34:48.069Z [INFO] [Tool.invoke] do invoke.
+2026-07-19T18:34:48.081Z [INFO] Project c:\Users\msi\Documents\MavenProjects\MavenLAB\hello-world is a maven project, try to get java version from pom.xml
+2026-07-19T18:34:48.086Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'precheckCompleted' reported!\nSession ID: 20260719183448,\nSession Dir: c:\\Users\\msi\\Documents\\MavenProjects\\MavenLAB\\hello-world\\.github\\modernize\\java-upgrade\\20260719183448"
+}}).
+2026-07-19T18:34:48.088Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-07-19T18:34:48.092Z [INFO] Project java version: 7
+2026-07-19T18:34:48.094Z [INFO] Maven project detected.
+2026-07-19T18:34:48.095Z [INFO] Build tool type: mvn
+2026-07-19T18:34:48.305Z [INFO] JDK: undefined
+2026-07-19T18:34:48.306Z [ERROR] Failed to detect or resolve JDK for the project at c:\Users\msi\Documents\MavenProjects\MavenLAB\hello-world.
+2026-07-19T18:34:48.313Z [WARN] [ReportEventTool] Full project info unavailable, attempting lightweight fallback: UserError: Failed to detect or resolve JDK for the project at c:\Users\msi\Documents\MavenProjects\MavenLAB\hello-world. Please ensure JDK 7 is installed and properly configured on the machine.
+2026-07-19T18:34:48.320Z [INFO] Maven project detected.
+2026-07-19T18:34:48.322Z [INFO] Project c:\Users\msi\Documents\MavenProjects\MavenLAB\hello-world is a maven project, try to get java version from pom.xml
+2026-07-19T18:34:50.998Z [INFO] ---------------------prepare appmod-list-jdks----------------------
+2026-07-19T18:34:51.000Z [INFO] [Tool.prepareInvocation]({name: appmod-list-jdks, input: {
+  "sessionId": "20260719183448"
+}}).
+2026-07-19T18:34:51.001Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-07-19T18:34:51.002Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List jdks"
+}}).
+2026-07-19T18:34:51.003Z [INFO] ----------------------prepared appmod-list-jdks----------------------
+2026-07-19T18:34:51.331Z [INFO] ----------------------invoke appmod-list-jdks----------------------
+2026-07-19T18:34:51.333Z [INFO] [Tool.invoke]({name: appmod-list-jdks, modelId: auto, input: {
+  "sessionId": "20260719183448"
+}}).
+2026-07-19T18:34:51.334Z [INFO] [Tool.invoke] do invoke.
+2026-07-19T18:34:51.390Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following jdks in your system:\n\n1. Java 21.0.11\n   📁 Path: C:\\Program Files\\Java\\jdk-21.0.11\\bin\n   🏷️ Source: PATH,JAVA_HOME\n\nTotal: 1 JDK installation(s) found"
+}}).
+2026-07-19T18:34:51.391Z [INFO] ----------------------invoked appmod-list-jdks----------------------
